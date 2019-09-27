@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/QuestionTitleStyle"
+            android:text="@string/question_1" />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_1_text"
+            />
+
+        <EditText
+            android:id="@+id/question1EditTextId"
+            style="@style/EditTextStyle" />
+
+        <TextView
+            style="@style/QuestionTitleStyle"
+            android:text="@string/question_2" />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_2_text"
+            />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                android:id="@+id/question2RadioButtonOption1Id"
+                style="@style/RadioButtonStyle"
+                android:text="@string/question_2_option_1"
+                />
+
+            <RadioButton
+                style="@style/RadioButtonStyle"
+                android:text="@string/question_2_option_2"
+                />
+
+            <RadioButton
+                style="@style/RadioButtonStyle"
+                android:text="@string/question_2_option_3"
+                />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionTitleStyle"
+            android:text="@string/question_3" />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_3_text"
+            />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                style="@style/RadioButtonStyle"
+                android:text="@string/question_3_option_1"
+                />
+
+            <RadioButton
+                style="@style/RadioButtonStyle"
+                android:text="@string/question_3_option_2"
+                />
+
+            <RadioButton
+                android:id="@+id/question3RadioButtonOption3Id"
+                style="@style/RadioButtonStyle"
+                android:text="@string/question_3_option_3"
+                />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionTitleStyle"
+            android:text="@string/question_4" />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_4_text"
+            />
+
+        <CheckBox
+            android:id="@+id/question4CheckBoxOption1Id"
+            style="@style/CheckBoxStyle"
+            android:text="@string/question_4_option_1"
+            />
+
+        <CheckBox
+            android:id="@+id/question4CheckBoxOption2Id"
+            style="@style/CheckBoxStyle"
+            android:text="@string/question_4_option_2"
+            />
+
+        <CheckBox
+            android:id="@+id/question4CheckBoxOption3Id"
+            style="@style/CheckBoxStyle"
+            android:text="@string/question_4_option_3"
+            />
+
+        <CheckBox
+            android:id="@+id/question4CheckBoxOption4Id"
+            style="@style/CheckBoxStyle"
+            android:text="@string/question_4_option_4"
+            />
+
+        <CheckBox
+            android:id="@+id/question4CheckBoxOption5Id"
+            style="@style/CheckBoxStyle"
+            android:text="@string/question_4_option_5"
+            />
+
+        <TextView
+            style="@style/QuestionTitleStyle"
+            android:text="@string/question_5" />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_5_text"
+            />
+
+        <CheckBox
+            android:id="@+id/question5CheckBoxOption1Id"
+            style="@style/CheckBoxStyle"
+            android:text="@string/question_5_option_1"
+            />
+
+        <CheckBox
+            android:id="@+id/question5CheckBoxOption2Id"
+            style="@style/CheckBoxStyle"
+            android:text="@string/question_5_option_2"
+            />
+
+        <CheckBox
+            android:id="@+id/question5CheckBoxOption3Id"
+            style="@style/CheckBoxStyle"
+            android:text="@string/question_5_option_3"
+            />
+
+        <CheckBox
+            android:id="@+id/question5CheckBoxOption4Id"
+            style="@style/CheckBoxStyle"
+            android:text="@string/question_5_option_4"
+            />
+
+        <CheckBox
+            android:id="@+id/question5CheckBoxOption5Id"
+            style="@style/CheckBoxStyle"
+            android:text="@string/question_5_option_5"
+            />
+
+        <TextView
+            style="@style/QuestionTitleStyle"
+            android:text="@string/question_6" />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_6_text"
+            />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                style="@style/RadioButtonStyle"
+                android:text="@string/question_6_option_1"
+                />
+
+            <RadioButton
+                android:id="@+id/question6RadioButtonOption2Id"
+                style="@style/RadioButtonStyle"
+                android:text="@string/question_6_option_2"
+                />
+
+            <RadioButton
+                style="@style/RadioButtonStyle"
+                android:text="@string/question_6_option_3"
+                />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionTitleStyle"
+            android:text="@string/question_7" />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_7_text"
+            />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                style="@style/RadioButtonStyle"
+                android:text="@string/question_7_option_1"
+                />
+
+            <RadioButton
+                style="@style/RadioButtonStyle"
+                android:text="@string/question_7_option_2"
+                />
+
+            <RadioButton
+                android:id="@+id/question7RadioButtonOption3Id"
+                style="@style/RadioButtonStyle"
+                android:text="@string/question_7_option_3"
+                />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionTitleStyle"
+            android:text="@string/question_8" />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_8_text"
+            />
+
+        <EditText
+            android:id="@+id/question8EditTextId"
+            style="@style/EditTextStyle" />
+
+        <TextView
+            style="@style/QuestionTitleStyle"
+            android:text="@string/question_9" />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_9_text"
+            />
+
+        <CheckBox
+            android:id="@+id/question9CheckBoxOption1Id"
+            style="@style/CheckBoxStyle"
+            android:text="@string/question_9_option_1"
+            />
+
+        <CheckBox
+            android:id="@+id/question9CheckBoxOption2Id"
+            style="@style/CheckBoxStyle"
+            android:text="@string/question_9_option_2"
+            />
+
+        <CheckBox
+            android:id="@+id/question9CheckBoxOption3Id"
+            style="@style/CheckBoxStyle"
+            android:text="@string/question_9_option_3"
+            />
+
+        <CheckBox
+            android:id="@+id/question9CheckBoxOption4Id"
+            style="@style/CheckBoxStyle"
+            android:text="@string/question_9_option_4"
+            />
+
+        <TextView
+            style="@style/QuestionTitleStyle"
+            android:text="@string/question_10" />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_10_text"
+            />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                style="@style/RadioButtonStyle"
+                android:text="@string/question_10_option_1"
+                />
+
+            <RadioButton
+                android:id="@+id/question10RadioButtonOption2Id"
+                style="@style/RadioButtonStyle"
+                android:text="@string/question_10_option_2"
+                />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:gravity="bottom|center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="showScore"
+                android:text="@string/check_score" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sendResults"
+                android:text="@string/send_results_to_mail" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
