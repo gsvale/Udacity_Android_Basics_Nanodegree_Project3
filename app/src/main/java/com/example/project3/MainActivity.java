@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Calculates the score checking the answers for each question.
      *
-     *
+     * returns int which is the number of corrected answers
      */
     private int calculateScore() {
 
